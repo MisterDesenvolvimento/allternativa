@@ -1,0 +1,42 @@
+[12-Nov-2018 12:37:06 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home4/jakareco/public_html/allternativa/conexao.php:1) in /home4/jakareco/public_html/allternativa/valida_login.php on line 36
+[12-Nov-2018 12:39:23 UTC] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home4/jakareco/public_html/allternativa/valida_login.php:1) in /home4/jakareco/public_html/allternativa/valida_login.php on line 2
+[12-Nov-2018 10:40:09 America/Sao_Paulo] PHP Fatal error:  Uncaught Exception: FPDF error: Some data has already been output, can't send PDF file (output started at /home4/jakareco/public_html/allternativa/conexao.php:1) in /home4/jakareco/public_html/allternativa/fpdf/fpdf.php:271
+Stack trace:
+#0 /home4/jakareco/public_html/allternativa/fpdf/fpdf.php(1052): FPDF->Error('Some data has a...')
+#1 /home4/jakareco/public_html/allternativa/fpdf/fpdf.php(999): FPDF->_checkoutput()
+#2 /home4/jakareco/public_html/allternativa/reciboPrestador.php(171): FPDF->Output('I', 'ReciboPrestador...')
+#3 {main}
+  thrown in /home4/jakareco/public_html/allternativa/fpdf/fpdf.php on line 271
+[12-Nov-2018 10:44:12 America/Sao_Paulo] PHP Fatal error:  Uncaught Exception: FPDF error: Some data has already been output, can't send PDF file (output started at /home4/jakareco/public_html/allternativa/conexao.php:1) in /home4/jakareco/public_html/allternativa/fpdf/fpdf.php:271
+Stack trace:
+#0 /home4/jakareco/public_html/allternativa/fpdf/fpdf.php(1052): FPDF->Error('Some data has a...')
+#1 /home4/jakareco/public_html/allternativa/fpdf/fpdf.php(999): FPDF->_checkoutput()
+#2 /home4/jakareco/public_html/allternativa/reciboPrestador.php(171): FPDF->Output('I', 'ReciboPrestador...')
+#3 {main}
+  thrown in /home4/jakareco/public_html/allternativa/fpdf/fpdf.php on line 271
+[12-Nov-2018 13:12:30 UTC] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home4/jakareco/public_html/allternativa/valida_login.php:1) in /home4/jakareco/public_html/allternativa/valida_login.php on line 2
+[12-Nov-2018 11:13:05 America/Sao_Paulo] PHP Fatal error:  Uncaught Exception: FPDF error: Some data has already been output, can't send PDF file (output started at /home4/jakareco/public_html/allternativa/conexao.php:1) in /home4/jakareco/public_html/allternativa/fpdf/fpdf.php:271
+Stack trace:
+#0 /home4/jakareco/public_html/allternativa/fpdf/fpdf.php(1052): FPDF->Error('Some data has a...')
+#1 /home4/jakareco/public_html/allternativa/fpdf/fpdf.php(999): FPDF->_checkoutput()
+#2 /home4/jakareco/public_html/allternativa/reciboPrestador.php(171): FPDF->Output('I', 'ReciboPrestador...')
+#3 {main}
+  thrown in /home4/jakareco/public_html/allternativa/fpdf/fpdf.php on line 271
+[12-Nov-2018 13:50:40 UTC] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home4/jakareco/public_html/allternativa/valida_login.php:1) in /home4/jakareco/public_html/allternativa/valida_login.php on line 2
+[12-Nov-2018 15:26:10 UTC] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home4/jakareco/public_html/allternativa/valida_login.php:1) in /home4/jakareco/public_html/allternativa/valida_login.php on line 2
+[12-Nov-2018 17:44:26 UTC] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home4/jakareco/public_html/allternativa/valida_login.php:1) in /home4/jakareco/public_html/allternativa/valida_login.php on line 2
+[12-Nov-2018 17:45:07 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home4/jakareco/public_html/allternativa/conexao.php:1) in /home4/jakareco/public_html/allternativa/reciboPrestador.php on line 12
+[12-Nov-2018 17:45:07 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home4/jakareco/public_html/allternativa/conexao.php:1) in /home4/jakareco/public_html/allternativa/reciboPrestador.php on line 13
+[12-Nov-2018 15:45:07 America/Sao_Paulo] PHP Fatal error:  Uncaught Exception: FPDF error: Some data has already been output, can't send PDF file (output started at /home4/jakareco/public_html/allternativa/conexao.php:1) in /home4/jakareco/public_html/allternativa/fpdf/fpdf.php:271
+Stack trace:
+#0 /home4/jakareco/public_html/allternativa/fpdf/fpdf.php(1052): FPDF->Error('Some data has a...')
+#1 /home4/jakareco/public_html/allternativa/fpdf/fpdf.php(999): FPDF->_checkoutput()
+#2 /home4/jakareco/public_html/allternativa/reciboPrestador.php(174): FPDF->Output('I', 'doc.pdf')
+#3 {main}
+  thrown in /home4/jakareco/public_html/allternativa/fpdf/fpdf.php on line 271
+[12-Nov-2018 21:32:12 UTC] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home4/jakareco/public_html/allternativa/valida_login.php:1) in /home4/jakareco/public_html/allternativa/valida_login.php on line 2
+[01-Mar-2019 21:12:04 UTC] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home4/jakareco/public_html/allternativa/valida_login.php:1) in /home4/jakareco/public_html/allternativa/valida_login.php on line 2
+[01-Mar-2019 21:12:52 UTC] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home4/jakareco/public_html/allternativa/valida_login.php:1) in /home4/jakareco/public_html/allternativa/valida_login.php on line 2
+[02-Mar-2019 23:30:33 UTC] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home4/jakareco/public_html/allternativa/valida_login.php:1) in /home4/jakareco/public_html/allternativa/valida_login.php on line 2
+[10-Mar-2019 13:22:12 UTC] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home4/jakareco/public_html/allternativa/valida_login.php:1) in /home4/jakareco/public_html/allternativa/valida_login.php on line 2
+[10-Mar-2019 14:21:43 UTC] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home4/jakareco/public_html/allternativa/valida_login.php:1) in /home4/jakareco/public_html/allternativa/valida_login.php on line 2
